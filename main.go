@@ -35,8 +35,8 @@ func main() {
 	tool := Tool{
 		Parallel: workersCount,
 	}
-	x := tool.Run(urls...)
-	fmt.Println(x)
+	tool.Run(urls...)
+
 }
 
 type Tool struct {
